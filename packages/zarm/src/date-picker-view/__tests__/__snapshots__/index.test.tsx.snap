@@ -201,12 +201,14 @@ exports[`DatePickerView DatePickerView time 3 1`] = `
   max="21:00"
   min="11:00"
   mode="time"
+  value="14:00"
 >
   <ConfigReceiver
     forwardedRef={null}
     max="21:00"
     min="11:00"
     mode="time"
+    value="14:00"
   >
     <DatePickerView
       disabled={false}
@@ -226,6 +228,7 @@ exports[`DatePickerView DatePickerView time 3 1`] = `
       mode="time"
       prefixCls="za-date-picker-view"
       stopScroll={false}
+      value="14:00"
       valueMember="value"
     >
       <PickerView
@@ -543,7 +546,7 @@ exports[`DatePickerView DatePickerView time 3 1`] = `
         stopScroll={false}
         value={
           Array [
-            11,
+            14,
             0,
           ]
         }
@@ -610,7 +613,7 @@ exports[`DatePickerView DatePickerView time 3 1`] = `
               onChange={[Function]}
               prefixCls="za-wheel"
               stopScroll={false}
-              value={11}
+              value={14}
               valueMember="value"
             >
               <div
@@ -620,7 +623,7 @@ exports[`DatePickerView DatePickerView time 3 1`] = `
                   className="za-wheel__content"
                 >
                   <div
-                    className="za-wheel__item za-wheel__item--selected"
+                    className="za-wheel__item"
                     key="0"
                   >
                     11时
@@ -638,7 +641,7 @@ exports[`DatePickerView DatePickerView time 3 1`] = `
                     13时
                   </div>
                   <div
-                    className="za-wheel__item"
+                    className="za-wheel__item za-wheel__item--selected"
                     key="3"
                   >
                     14时
