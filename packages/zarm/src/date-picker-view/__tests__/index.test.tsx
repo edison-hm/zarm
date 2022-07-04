@@ -34,4 +34,10 @@ describe('DatePickerView', () => {
     );
     expect(toJson(wrapper)).toMatchSnapshot();
   });
+
+  it('DatePickerView value snapshot', () => {
+    const wrapper = mount(<DatePickerViewEnhanced mode="datetime" value="2009-3-4 14:00" />);
+
+    expect(toJson(wrapper)).toMatchSnapshot();
+  });
 });
